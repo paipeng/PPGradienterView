@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PPGradienterView_Example' do
+  pod 'PPGradienterView', :path => '../'
+
+  target 'PPGradienterView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
